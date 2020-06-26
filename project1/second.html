@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+ <html lang="en">
+  <head>
+    <style>
+        #header {grid-area: header;}
+        #nav {grid-area: nav;}
+        #section {grid-area: section;}
+        #aside {grid-area: aside;}
+        #footer {grid-area: footer;}
+
+        #container {
+            height: 625px;
+            margin: 0;
+            padding: 0;
+            display: grid;
+            grid-template-columns: 1fr 3fr 1fr 1fr 2fr;
+            grid-template-rows: 10% 40% 40% 10%;
+            grid-template-areas: 
+            "header header header header header"
+            "nav section section section aside"
+            "nav section section section aside"
+            "nav footer footer footer footer";
+            text-align: center;
+            grid-gap: 5px;
+        }
+        #header {
+            background-color: aquamarine;
+            border: 1px solid black;
+        }
+        #nav {
+            background-color: rgb(24, 94, 97);
+            border: 1px solid black;
+        }
+        #section {
+            background-color: goldenrod;
+            border: 1px solid black;
+            padding: 50px;
+        }
+        #aside {
+            background-color: rgb(207, 194, 12);
+            border: 1px solid black;
+        }
+        #footer {
+            background-color: rgb(143, 17, 17);
+            border: 1px solid black;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="author" content="Adegoke Omisakin">
+    <meta name="description" content= "This is my portfolio page. Enjoy your ride">  
+    <title>My Portfolio2</title>
+  </head>
+  <body>
+  <div id="container">
+  <header id="header">Header
+  </header>
+  <nav id="nav">Navigation
+  </nav>
+  <section id="section">Section
+  </section>
+  <aside id="aside">Aside
+  </aside>
+  <footer id="footer">Footer
+  </footer>
+  </div>
+  </body>

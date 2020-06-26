@@ -1,0 +1,30 @@
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+ header {
+     background-color: darksalmon;
+     height: 100px;
+ }
+    nav {
+        display: flex;
+        background-color: darkseagreen;
+        height: 50px;
+    }
+section {
+    display: flex;
+    background-color: deeppink;
+    flex: 70%;
+    padding: 25px;
+}
+aside {
+    background-color: goldenrod;
+    flex: 30%;
+    padding: 25px;;
+}
+footer {
+    background-color: indigo;
+    display: flex;
+    padding: 10px;
+}
